@@ -1,0 +1,65 @@
+1 - HTML:
+titres, paragraphes, input, img, ul (unordred list), li (list element), a, button, nav, footer, form,
+table, video, audio
+
+2 - CSS:
+- padding , margin, color, width, height, background, shadows ,font ext ..
+- flexbox & grid
+- transistions & animations
+- responsive websites
+
+3 - JavaScript:
+logique d'un site web, language de programation, calcule
+- variables
+- data types : Number(Integer, Float), String (text), Boolean (true or false) 
+- advanced data types : Array [], Object {}
+- Operation Mathematiques + - * / %
+- conditions
+- Operateur Logique:
+	AND : if(isAdmin === true && age > 18)
+	OR : ||
+	NOT : if(!(isAdmin === true && age > 18))
+- boucles : une partie de programme qui se repete tant que une condition est verifiee
+- functions
+- DOM Manipulation
+- Events (click, press on keyboard, bouger la souris, scrolling ext..)
+
+
+
+
+
+4 - React.js : library frontend qui facilite beacoup le travail du frontend
+- diviser le projet sous pluesieurs fichiers (une bonne organisation du code)
+- avoir components re-utilisable
+- import CSS
+- props
+- Events (onClick, onChange, onScroll, onKeyDown ext..)
+- states
+- modifying CSS from js
+- global States (zustand)
+- react-router-dom (Link, useParams)
+- Asynchronous code, Promises, Api
+- useEffect
+
+
+
+5 - Backend:
+la partie dont l'utilisateur ne peut pas voir, on manipule on manipule tout ce qui base de donnees ext..
+
+le frontend et le backend communique via des HTTP Requests 
+
+
+le frontend envoie une requete
+Une requete (request) contient plein d'information:
+- url (j'envoie la requete vers qui?)
+- http methods:
+	- GET : front end demande des data from backend
+	- POST : front end envoie des data au backend
+	- PUT : updater
+	- DELETE : suprimer
+- body : corps de la requete, on envoie les informations a travers
+- params : api.quran/surah/1 (params est 1)
+
+Le backend réponds avec une response (soit il le donne ce qui a demander soit il refuse)
+
+
